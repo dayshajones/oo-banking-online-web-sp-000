@@ -10,6 +10,6 @@ class Transfer
   end
   
   def valid?
-    if Ban
+    if BankAccount.valid == true && 
   
 end
