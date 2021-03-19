@@ -10,6 +10,7 @@ class Transfer
   end
   
   def valid?
-    if BankAccount.valid == true && 
+    if self.sender.valid? && self.receiver.valid? 
+  end
   
 end
